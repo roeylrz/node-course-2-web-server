@@ -1,0 +1,10 @@
+https://expressjs.com/
+npm install express@4.14.0 --save
+
+const express = require('express');
+var app = express();
+---------------------------------------------------
+EXPRESS MIDLEWARE:
+app.use(function(req, res, next){     
+    next();//next - tell the server when we finish the midleware and we can return to the program
+ }) 
